@@ -1,0 +1,36 @@
+{
+  "name": "frontend-project-12",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/thealeksander/frontend-project-12/workflows/hexlet-check/badge.svg)](https://github.com/thealeksander/frontend-project-12/actions)",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm ci --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npx start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealeksander/frontend-project-12.git"
+  },
+  "author": "Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thealeksander/frontend-project-12/issues"
+  },
+  "homepage": "https://github.com/thealeksander/frontend-project-12#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^4.9.5"
+  }
+}
